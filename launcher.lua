@@ -1,6 +1,6 @@
 --this file contains all of the launcher functions
 http = require("socket.http")
-upToDate = true
+upToDate = false
 
 function checkForUpdate()
   local http = require("socket.http")

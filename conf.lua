@@ -1,0 +1,10 @@
+function love.conf(t)
+    t.version = "11.0"                  -- The LÖVE version this game was made for (string)
+
+    t.window.title = "FreshPlay Launcher"         -- The window title (string)
+    t.window.icon = "img/icon.png"                 -- Filepath to an image to use as the window's icon (string)
+    t.window.width = 600                -- The window width (number)
+    t.window.height = 400               -- The window height (number)
+    t.window.borderless = true         -- Remove all border visuals from the window (boolean)
+    t.window.resizable = false          -- Let the window be user-resizable (boolean)
+end
