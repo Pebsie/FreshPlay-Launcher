@@ -1,6 +1,10 @@
 require "settings"
+require "launcher"
+require "ui"
+require "download"
 
 function love.load()
+  download = love.thread.newThread(dc)
   initSettings()
   checkForUpdate()
 end
